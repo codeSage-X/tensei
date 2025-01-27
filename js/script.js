@@ -33,7 +33,7 @@ function animateOnScroll(element) {
     animateOnScroll(el);
   });
 function animateLines(element) {
-    gsap.set(element, { opacity: 0.2 });
+    gsap.set(element, { opacity: 1 });
 
        ScrollTrigger.create({
       trigger: element,
