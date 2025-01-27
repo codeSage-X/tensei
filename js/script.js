@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Function to animate elements and log scroll position
 function animateOnScroll(element) {
-    gsap.set(element, { opacity: 0, y: 100 });
+    gsap.set(element, { opacity: 1, y: 100 });
 
        ScrollTrigger.create({
       trigger: element,
