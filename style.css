@@ -87,10 +87,6 @@ html, body {
     /* background-color: red; */
   }
 
-
- 
-
-
   .mobile-links ul {
     list-style: none;
     padding: 0;
@@ -112,7 +108,6 @@ html, body {
   .mobile-links a:hover {
     color: #f39c12;
   }
-
 
   .nav-links {
     list-style: none;
@@ -206,12 +201,7 @@ html, body {
     justify-content: left;
     align-items: center;
     border: 1px solid #e4e4e4;
-    /* border-top-left-radius: 4px !important; */
-    /* border-top-right-radius: 4px !important; */
-
   }
-
-
   .home-banner {
     width: 100%;
     height: 70vh;
@@ -247,7 +237,6 @@ html, body {
  padding-bottom: 20px;
 
 }
-
 
 /* Sliding div styles */
  .slide-menu {
@@ -300,9 +289,6 @@ html, body {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  /* background-image: url("assets/step.png");
-  background-size: contain;
-  background-repeat: no-repeat */
 }
 
 .choose_clan h2 {
@@ -324,13 +310,12 @@ html, body {
 .story {
   width: 100%;
   height: 'auto';
-  /* background-color: var(--color);
-   */
    background-color: var(--color);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* background-color: #c34240; */
 }
 
 .story .container {
@@ -342,8 +327,6 @@ html, body {
   color: white;
   text-align: center;
   padding-bottom: 20px;
-  /* background-color: green; */
-  
 }
 
 .story-content {
@@ -352,7 +335,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: var(--color); */
+  /* background-color: #f39c12; */
 }
 
 .story-text {
@@ -362,29 +345,24 @@ html, body {
   display: flex;
   flex-direction: column; 
   justify-content: center;
+  /* background-color: yellow; */
 }
 
 .story-image {
   width: 48%;
-  height: 50vh;
-  /* background-color: var(--color); */
-  /* background-color: red; */
-  /* padding: 0px 20px; */
-  /* background-color: var(--brandcolor); */
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .story-img {
-  background-image: url("assets/char.jpg");
+  background-image: url("assets/char.png");
   background-position:  center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 80%;
-  /* background-color: violet; */
 }
 .story-2 {
   width: 100%;
@@ -712,13 +690,12 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
   .logoSm {
     margin-top: 120px !important;
   }
-  .story {
-    height: 120vh !important;
-    /* background-color: ; */
-  }
+ 
   .story p {
     font-size: 10px !important;
   }
+
+ 
 
   .about p {
     font-size: 10px !important;
@@ -761,6 +738,7 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
 }
 /* max mobile */
 @media screen and (max-width: 960px) {
+
 
   .sm {
       display: block !important;
@@ -845,7 +823,6 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
   }
 
 
-
   .home-banner {
       height: 80vh;
       background-color: var(---white);
@@ -854,12 +831,7 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
       background-size: cover;
       background-repeat: no-repeat;
   }
-  /* .section-1 {
-      height: 25vh;
-      border-top: var(--color) 5px solid;
-      background-image: url("assets/tensei.PNG");
-      background-size:contain;
-  } */
+
 
   .choose_clan h1 {
     padding-top: 40px;
@@ -874,16 +846,33 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
   }
 
   .story {
-    height: 80vh;
+    height: 140vh !important;
+  }
+
+  .story .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
   .story-content {
     width: 100%;
-    height: 100%;
+    height: 100% !important;
     /* background-color: var(--color); */
   }
 
+  .story-img {
+    height: 100% !important;
+    background-position: 'cover' !important;
+    /* background-color: red; */
+  }
+
   .story-image {
-    display: none;
+    width: 100%;
+    height: 100%;
   }
   .story-text {
   font-size: 12px;
@@ -1048,19 +1037,6 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
   text-transform: capitalize;
   position: relative;
 }
-/* 
-.roadmap-intro, .roadmap {
-  padding-bottom: 0px;
-  background-color: var(--dark1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-
-} */
-
-
 
 @media screen and (min-width:1024px) {
   .sm {
