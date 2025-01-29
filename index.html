@@ -91,9 +91,48 @@
        </div>
      </div>
 
+
    <div class="choose_clan" id="step-into-the-shrine">
      <img src="assets/step.png" alt="" class="step">
    </div>
+
+     <!-- slider  -->
+     <div class="clan">
+      <section class="game-section">
+        <h2 class="line-title">Choose Your Clan</h2>
+        <div class="owl-carousel custom-carousel owl-theme">
+          <div class="item active" style="background-image: url('./assets/clan1.jpg');">
+            <div class="item-desc">
+              <h3>Clan Name: KAGE</h3>
+              <p>Embrace the shadows and command the night.</p>
+              <p>Rate: ⭐⭐⭐⭐⭐</p>
+            </div>
+          </div>
+          <div class="item" style="background-image: url('./assets/clan2.jpg');">
+            <div class="item-desc">
+              <h3>Clan Name: AKARI</h3>
+              <p>Embrace the shadows and command the night.</p>
+              <p>Rate: ⭐⭐⭐⭐⭐</p>
+            </div>
+          </div>
+          <div class="item" style="background-image: url('./assets/clan3.jpg');">
+            <div class="item-desc">
+              <h3>Clan Name: TSURUGI</h3>
+              <p>Forced in honor but sharpen by battle</p>
+              <p>Rate: ⭐⭐⭐⭐</p>
+            </div>
+          </div>
+          <div class="item" style="background-image: url('./assets/clan4.jpg');">
+            <div class="item-desc">
+              <h3>Clan Name: MAGE</h3>
+              <p>Forced in honor but sharpen by battle</p>
+              <p>Rate: ⭐⭐⭐⭐</p>
+            </div>
+          </div>
+         
+        </div>
+        </div>
+
 
     <!-- story -->
     <div class="story" id="story">
@@ -478,6 +517,7 @@
   
           <div class="line "></div>
   
+          
           <div class="circle ">
   
           </div>
@@ -536,7 +576,7 @@
     <!-- jQuery -->
   <script src="js/jquery-3.7.1.min.js"></script>
   <!-- Owl Carousel JS -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script>
     $(document).ready(function () {
       // Initialize Owl Carousel
@@ -546,12 +586,12 @@
       });
 
       // Handle item click
-      $(".custom-carousel .item").click(function () {
+      $(".custom-carousel .item").hover(function () {
         $(".custom-carousel .item").not($(this)).removeClass("active");
         $(this).toggleClass("active");
       });
     });
-  </script> -->
+  </script>
 <script src="js/script.js"></script>
 </body>
 </html>
